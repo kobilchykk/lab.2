@@ -8,6 +8,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@700&family=Montserrat:ital,wght@0,100;1,900&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <div class="background"></div>
  <body> 
 <div class="box"></div>
@@ -120,21 +124,17 @@ line-height: 24px;
 width: 24.98px;
 height: 24px;
 left: 1055px;
-top: 80px;
+top: 65px;
 
     }
     .navbar-brand{
-        background-image: url("img/logo.png");
+        background-image: url(img/logo.png);
+        background-repeat: no-repeat;
         position: absolute;
-width: 155px;
+        width: 160px;
 height: 37px;
 left: 254px;
-top: 75px;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 37px;
-        color: #000000;
+top: 58px;     
     }
     .shop1{
 background-image: url(img/trash.png);
@@ -142,7 +142,7 @@ position: absolute;
 width: 46px;
 height: 41px;
 left: 1450px;
-top: 70px;
+top: 58px;
     }
     .shop2{
         text-decoration: none;
@@ -150,7 +150,7 @@ top: 70px;
         width: 80.3px;
 height: 18px;
 left: 1520px;
-top: 85px;
+top: 68px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -167,7 +167,7 @@ color: #000000;
 width: 15px;
 height: 8px;
 left: 1600px;
-top: 90px;
+top: 73px;
 
     }
 
@@ -193,43 +193,29 @@ top: 90px;
     </div>
     </nav>
     <style>
-    .btn{
+    .btn_yellow{
         position: absolute;
-width: 678px;
-height: 181px;
-left: 215px;
-top: 216px;
-
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 61px;
-
-color: #000000;
-        }
-    .btn.btn_yellow{
-position: absolute;
 width: 244px;
 height: 64px;
-left: 0px;
-top: 190px;
-font-family: 'Montserrat', sans-serif;
+left: 215px;
+top: 546px;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 30px;
 line-height: 37px;
 text-decoration: none;
 
-
 color: #434343;
 
 background: rgba(255, 225, 120, 0.92);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(50px);
+
 border-radius: 50px;
         }
-    .btn.btn_yellow:hover{
+
+    .btn_yellow:hover{
             background-color: #f7c618;
 
         }
@@ -256,6 +242,42 @@ border-radius: 50px;
         padding: 9px 15px;
         font-size: 24px;
     }
+    .discription1{
+        position: absolute;
+width: 678px;
+height: 181px;
+left: 215px;
+top: 216px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 1000;
+font-size: 50px;
+line-height: 61px;
+text-decoration: none;
+
+color: #000000;
+    }
+    .discription2{
+        position: absolute;
+width: 471px;
+height: 95px;
+left: 215px;
+top: 424px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 90.1%;
+text-decoration: none;
+
+display: flex;
+align-items: center;
+letter-spacing: -0.06em;
+
+color: #000000;
+    }
    
     </style>
     <banner>
@@ -263,8 +285,9 @@ border-radius: 50px;
         <section id="main_banner">
         <div class="container">
         <div class="inner_banner">
-        <a href="#"  class="btn btn_yellow" align="center" >Каталог</a>
-        <h1>Брендове взуття найвищої якості з доставкою у твоє місто</h1>
+        <a href="#"  class="btn_yellow">Каталог</a>
+        <div class="discription1">Брендове взуття найвищої якості з доставкою у твоє місто</div>
+        <div class="discription2">Онлайн магазин якісного взуття від відомих брендів</div>
         </div> 
         </div>
     </div>
@@ -419,19 +442,10 @@ top: 1207px;
 
     <banner3> 
     <div class="bg20"></div>
-    <a href="#" class="dunkbox1"></a>
-    <div class="Bart"></div>  
-    <div class="snigers">Кросівки</div>
-    <div class="discription1"> Nike Dunk Low Pro SB Bart Simpson</div> 
-    <a href="#" class="dunkbox2"></a>
-    <div class="black"></div>  
-    <div class="snigers2">Жіночі Кросівки</div>
-    <div class="discription2"> Nike Dunk Low Retro Black White</div> 
-    <a href="#" class="dunkbox3"></a>
-    <div class="brown"></div>  
-    <div class="snigers3">Кросівки</div>
-    <div class="discription3"> Nike SB Dunk Low Pro Paisley Brown</div>
     <div class="catalog">Каталог взуття</div>
+    <a href="#" class="dunkbox1"></a>
+    <a href="#" class="dunkbox2"></a>
+    <a href="#" class="dunkbox3"></a>
     <a href="#" class="allbox"></a>
     <a href="#" class="manbox"></a>
     <a href="#" class="womanbox"></a>
@@ -451,7 +465,7 @@ background: #E3E7DD;
 position: absolute;
 width: 290px;
 height: 43px;
-left: 215px;
+left: 285px;
 top: 1458px;
 
 font-family: 'Montserrat';
@@ -466,16 +480,17 @@ background-image: url(img/allbtn.png);
 position: absolute;
 width: 122px;
 height: 62px;
-left: 255px;
+left: 320px;
 top: 1552px;
 
-}
+
+} 
 .manbox{
 background-image: url(img/manbtn.png);
 position: absolute;
 width: 194px;
 height: 62px;
-left: 424px;
+left: 494px;
 top: 1552px;
 }
 .womanbox{
@@ -483,7 +498,7 @@ background-image: url(img/womanbtn.png);
 position: absolute;
 width: 194px;
 height: 62px;
-left: 665px;
+left: 735px;
 top: 1552px;
 }
 .kidsbox{
@@ -491,7 +506,7 @@ background-image: url(img/kidsbtn.png);
 position: absolute;
 width: 213px;
 height: 62px;
-left: 907px;
+left: 977px;
 top: 1552px;
 }
 .bigsizebox{
@@ -499,164 +514,44 @@ background-image: url(img/bigsizebtn.png);
 position: absolute;
 width: 280px;
 height: 100px;
-left: 1168px;
+left: 1238px;
 top: 1537px;
 }
 .dunkbox1{
+    background-image: url(img/dunkbox1.png);
 position: absolute;
 width: 326px;
 height: 483px;
-left: 215px;
+left: 305px;
 top: 1677px;
 
-background: #ffffff;
 border-radius: 32px;
 }
-.snigers{
-position: absolute;
-width: 218px;
-height: 39px;
-left: 269px;
-top: 1705px;
 
-font-family: 'Mohave', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 1000;
-font-size: 30px;
-line-height: 42px;
-text-align: center;
-
-color: #000000;
-}
-.Bart{
-background-image: url(img/nike-dunk-low-pro-sb-bart-simpson-1000x1000\ 1.png);
-position: absolute;
-width: 275px;
-height: 257px;
-left: 242px;
-top: 1725px;
-
-}
-.discription1{
-position: absolute;
-width: 270px;
-height: 113px;
-left: 242px;
-top: 1965px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 37px;
-text-align: center;
-
-color: #000000;
-}
 .dunkbox2{
+    background-image: url(img/dunkbox2.png);
 position: absolute;
 width: 326px;
 height: 483px;
-left: 669px;
+left: 759px;
 top: 1677px;
 
-background: #FAF8F8;
 border-radius: 32px;
 
 }
-.snigers2{
-position: absolute;
-width: 275px;
-height: 39px;
-left: 694px;
-top: 1705px;
-font-family: 'Mohave', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 1000;
-font-size: 30px;
-line-height: 42px;
-text-align: center;
 
-color: #000000;
-}
-.black{
-background-image: url(img/nike-dunk-low-retro-black-white-1000x1000\ 1.png);
-position: absolute;
-width: 275px;
-height: 257px;
-left: 699px;
-top: 1725px;
-}
-.discription2{
-position: absolute;
-width: 199px;
-height: 103px;
-left: 737px;
-top: 1965px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 37px;
-text-align: center;
-
-color: #000000;
-   
-}
 .dunkbox3{
+    background-image: url(img/dunkbox3.png);
 position: absolute;
 width: 326px;
 height: 483px;
-left: 1122px;
+left: 1212px;
 top: 1677px;
 
 
-background: #ffffff;
 border-radius: 32px;
 }
-.snigers3{
-position: absolute;
-width: 246px;
-height: 39px;
-left: 1162px;
-top: 1705px;
 
-font-family: 'Mohave', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 1000;
-font-size: 30px;
-line-height: 42px;
-text-align: center; 
-}
-.brown{
-background-image: url(img/nike-sb-dunk-low-pro-paisley-brown-650x650\ 1.png); 
-position: absolute;
-width: 276px;
-height: 257px;
-left: 1149px;
-top: 1725px;  
-}
-.discription3{
-    position: absolute;
-width: 233px;
-height: 98px;
-left: 1166px;
-top: 1965px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 37px;
-text-align: center;
-
-color: #000000;
-
-}
 
 </style>
      </banner3>  
@@ -718,5 +613,148 @@ top: 2000px;
 }
         </style>
      </banner4>
+     <banner5>
+            <footer class="footer">
+                <div class="container1">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul></div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Nike</a></li>
+  	 				<li><a href="#">Adidas</a></li>
+  	 				<li><a href="#">Reebok</a></li>
+  	 				<li><a href="#">Bape sta</a></li>
+  	 			</ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+    position: absolute;
+width: 2000px;
+height: 400px;
+left:0px;
+top: 3389px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+            </style>
+     </banner5>
 </body>
 </html>
